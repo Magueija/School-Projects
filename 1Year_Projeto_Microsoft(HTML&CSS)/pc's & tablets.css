@@ -1,0 +1,298 @@
+div.all{    
+    background-color: whitesmoke;
+    height: 45px;
+    width: auto;
+    padding-left: 3px;
+    padding-top: 5px;
+    border: none;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+}
+
+div.logo{
+    height: 34px;
+    width: 140px;
+    border: none;
+    margin-left: 190px;
+    margin-top: 1px;
+    padding-left: 4px;
+    padding-top: 4px;
+}
+
+div.dropb{
+    height: 26px;
+    width: 26px;
+    padding-left: 3px;
+    padding-top: 3px;
+    border: none;
+    margin-left: 7px;
+    margin-top: -35px;
+}
+
+
+.dropbtn {
+    background-color: whitesmoke;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor:pointer;
+    margin-left: 3px;
+    margin-top: -40px;
+    
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: white}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: whitesmoke;
+}
+
+div.windows{
+    height: 34px;
+    width: 124px;
+    border: none;
+    margin-left: 460px;
+    margin-top: -55px;
+    padding-left: 4px;
+    padding-top: 4px;
+}
+
+div.xbox{  
+    height: 34px;
+    width: 124px;
+    border: 1px now;
+    margin-left: 690px;
+    margin-top: -38px;
+    padding-left: 4px;
+    padding-top: 4px;
+}
+
+div.office{
+    height: 34px;
+    width: 124px;
+    border: none;
+    margin-left: 900px;
+    margin-top: -38px;
+    padding-left: 4px;
+    padding-top: 4px;
+    
+}
+
+div.ofertas{
+    height: 34px;
+    width: 204px;
+    border: none;
+    margin-left: 1100px;
+    margin-top: -42px;
+    padding-left: 4px;
+    padding-top: 4px;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #424242;
+	text-decoration: underline;
+    cursor: pointer;
+}
+
+a:active {
+    color: blue;
+     text-decoration: none;
+}
+
+
+
+div.texto{
+    height: 4500px;
+    width: auto;
+    margin-top: -20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    border: none;
+    background-color: ghostwhite;
+    filter: blur(15px);
+}
+
+div.scroll{
+    height: auto;
+    width: auto;
+    margin-top: 660px;
+    margin-left: 30px;
+    border: none;
+}
+
+
+div.texto1{
+    height: 950px;
+    width: 1300px;
+    margin-top: -4500px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border: none; 
+    padding: 5px;
+    position: absolute;
+}
+
+div.imga{
+    height: 400px;
+    width: auto;
+    margin-top: 5px;
+    margin-left: 200px;
+    border: none; 
+    padding: 5px;
+}
+div.textoa{
+    height: 200px;
+    width: 700px;
+    margin-top: 5px;
+    margin-left: 300px;
+    border: none; 
+    padding: 5px;
+}
+
+div.textogif{
+    height: 200px;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 800px;
+    border: none; 
+    padding: 5px;
+}
+div.gifa{
+    height: auto;
+    width: auto;
+    margin-top: -300px;
+    margin-left: 50px;
+    border: none; 
+    padding: 5px;
+}
+
+div.textoc{
+    height: 200px;
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 300px;
+    border: none; 
+    padding: 5px;
+}
+
+div.imgc{
+    height: 400px;
+    width: 1200px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border: none; 
+    padding: 5px;
+}
+
+div.textob{
+    height: 200px;
+    width: 700px;
+    margin-top: 20px;
+    margin-left: 300px;
+    border: none; 
+    padding: 5px;
+}
+
+div.imgb{
+    height: 400px;
+    width: 1200px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border: none; 
+    padding: 5px;
+}
+
+div.textod{
+    height: 200px;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 80px;
+    border: none; 
+    padding: 5px;
+}
+div.imgd{
+    height: auto;
+    width: auto;
+    margin-top: 100px;
+    margin-left: 50px;
+    border: none; 
+    padding: 5px;
+}
+
+div.textoe{
+    height: 200px;
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 710px;
+    border: none; 
+    padding: 5px;
+}
+div.imge{
+    height: auto;
+    width: auto;
+    margin-top: -630px;
+    margin-left: 650px;
+    border: none; 
+    padding: 5px;
+}
+
+div.textof{
+    height: 200px;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 100px;
+    border: none; 
+    padding: 5px;
+}
+div.imgf{
+    height: auto;
+    width: auto;
+    margin-top: -300px;
+    margin-left: 550px;
+    border: none; 
+    padding: 5px;
+}
+
+div.top{
+    height: 40px;
+    width: 20px;
+    margin-top: -50px;
+    margin-left: 50px;
+    border: none; 
+    padding: 5px;
+}
