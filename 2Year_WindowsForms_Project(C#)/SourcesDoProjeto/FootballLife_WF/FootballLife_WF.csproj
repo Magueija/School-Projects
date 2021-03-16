@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F2E15A7-14E6-490B-B9A7-16E514EDDE4F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FootballLife_WF</RootNamespace>
+    <AssemblyName>FootballLife_WF</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>FbLf_LOGO.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_LucroDespesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_LucroDespesa.Designer.cs">
+      <DependentUpon>Add_LucroDespesa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdicionarUtilizador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdicionarUtilizador.Designer.cs">
+      <DependentUpon>AdicionarUtilizador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContactosAdministracao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactosAdministracao.Designer.cs">
+      <DependentUpon>ContactosAdministracao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeletedUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeletedUsers.Designer.cs">
+      <DependentUpon>DeletedUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarInventario.Designer.cs">
+      <DependentUpon>EditarInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FaturaCota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FaturaCota.Designer.cs">
+      <DependentUpon>FaturaCota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Historia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Historia.Designer.cs">
+      <DependentUpon>Historia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equipas.Designer.cs">
+      <DependentUpon>Equipas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jogo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Jogo.Designer.cs">
+      <DependentUpon>Jogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NovaConvocatoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NovaConvocatoria.Designer.cs">
+      <DependentUpon>NovaConvocatoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NovaDiscussão.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NovaDiscussão.Designer.cs">
+      <DependentUpon>NovaDiscussão.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Financiamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Financiamento.Designer.cs">
+      <DependentUpon>Financiamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NovoResultado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NovoResultado.Designer.cs">
+      <DependentUpon>NovoResultado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaginaInicial.Designer.cs">
+      <DependentUpon>PaginaInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jogos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jogos.Designer.cs">
+      <DependentUpon>Jogos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventario.Designer.cs">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Convocatoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Convocatoria.Designer.cs">
+      <DependentUpon>Convocatoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cota.Designer.cs">
+      <DependentUpon>Cota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Estadio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Estadio.Designer.cs">
+      <DependentUpon>Estadio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaInicial_Treinador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaginaInicial_Treinador.Designer.cs">
+      <DependentUpon>PaginaInicial_Treinador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilizadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utilizadores.Designer.cs">
+      <DependentUpon>Utilizadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaInicial_Socio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaginaInicial_Socio.Designer.cs">
+      <DependentUpon>PaginaInicial_Socio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaInicial_Atleta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaginaInicial_Atleta.Designer.cs">
+      <DependentUpon>PaginaInicial_Atleta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaginaInicial_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaginaInicial_Admin.Designer.cs">
+      <DependentUpon>PaginaInicial_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="EditarUtilizador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarUtilizador.Designer.cs">
+      <DependentUpon>EditarUtilizador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VerJogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerJogo.Designer.cs">
+      <DependentUpon>VerJogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizarUtilizador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VisualizarUtilizador.Designer.cs">
+      <DependentUpon>VisualizarUtilizador.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Add_LucroDespesa.resx">
+      <DependentUpon>Add_LucroDespesa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdicionarUtilizador.resx">
+      <DependentUpon>AdicionarUtilizador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContactosAdministracao.resx">
+      <DependentUpon>ContactosAdministracao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeletedUsers.resx">
+      <DependentUpon>DeletedUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarInventario.resx">
+      <DependentUpon>EditarInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FaturaCota.resx">
+      <DependentUpon>FaturaCota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historia.resx">
+      <DependentUpon>Historia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipas.resx">
+      <DependentUpon>Equipas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jogo.resx">
+      <DependentUpon>Jogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaConvocatoria.resx">
+      <DependentUpon>NovaConvocatoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovaDiscussão.resx">
+      <DependentUpon>NovaDiscussão.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Financiamento.resx">
+      <DependentUpon>Financiamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovoResultado.resx">
+      <DependentUpon>NovoResultado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaginaInicial.resx">
+      <DependentUpon>PaginaInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jogos.resx">
+      <DependentUpon>Jogos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventario.resx">
+      <DependentUpon>Inventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Convocatoria.resx">
+      <DependentUpon>Convocatoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cota.resx">
+      <DependentUpon>Cota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Estadio.resx">
+      <DependentUpon>Estadio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaginaInicial_Treinador.resx">
+      <DependentUpon>PaginaInicial_Treinador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilizadores.resx">
+      <DependentUpon>Utilizadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaginaInicial_Socio.resx">
+      <DependentUpon>PaginaInicial_Socio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaginaInicial_Atleta.resx">
+      <DependentUpon>PaginaInicial_Atleta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaginaInicial_Admin.resx">
+      <DependentUpon>PaginaInicial_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="EditarUtilizador.resx">
+      <DependentUpon>EditarUtilizador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerJogo.resx">
+      <DependentUpon>VerJogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizarUtilizador.resx">
+      <DependentUpon>VisualizarUtilizador.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fundo 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Clube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jogos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Equipas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estadio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Estadio1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medalha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackArrow_Login_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackArrow_Login_Hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuWhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fundo 5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TerminarSessao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adicionar_Criar%28white%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogOut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Linha_Separadora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FbLf_LOGO.ico" />
+    <None Include="Resources\1Suplente.png" />
+    <None Include="Resources\suplente1.png" />
+    <None Include="Resources\NaoConvocado2.png" />
+    <None Include="Resources\NaoConvocado1.png" />
+    <None Include="Resources\Suplente_Red.png" />
+    <None Include="Resources\Titular.png" />
+    <None Include="Resources\Delete.png" />
+    <None Include="Resources\Back_Hover.png" />
+    <None Include="Resources\Back_Normal.png" />
+    <None Include="Resources\Add_Normal.png" />
+    <None Include="Resources\Add_Hover.png" />
+    <None Include="Resources\LogoTreinador.jpg" />
+    <None Include="Resources\LogoSocio.png" />
+    <None Include="Resources\LogoAtleta.jpg" />
+    <None Include="Resources\LogoAdmin1.png" />
+    <None Include="Resources\LogoAdmin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UserControls\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="ShockwaveFlashObjects">
+      <Guid>{D27CDB6B-AE6D-11CF-96B8-444553540000}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

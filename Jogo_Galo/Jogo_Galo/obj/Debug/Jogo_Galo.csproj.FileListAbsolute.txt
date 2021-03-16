@@ -1,0 +1,7 @@
+C:\Users\PSI17F20\source\repos\Módulo_9\Jogo_Galo\Jogo_Galo\bin\Debug\Jogo_Galo.exe.config
+C:\Users\PSI17F20\source\repos\Módulo_9\Jogo_Galo\Jogo_Galo\bin\Debug\Jogo_Galo.exe
+C:\Users\PSI17F20\source\repos\Módulo_9\Jogo_Galo\Jogo_Galo\bin\Debug\Jogo_Galo.pdb
+C:\Users\PSI17F20\source\repos\Módulo_9\Jogo_Galo\Jogo_Galo\obj\Debug\Jogo_Galo.csprojAssemblyReference.cache
+C:\Users\PSI17F20\source\repos\Módulo_9\Jogo_Galo\Jogo_Galo\obj\Debug\Jogo_Galo.csproj.CoreCompileInputs.cache
+C:\Users\PSI17F20\source\repos\Módulo_9\Jogo_Galo\Jogo_Galo\obj\Debug\Jogo_Galo.exe
+C:\Users\PSI17F20\source\repos\Módulo_9\Jogo_Galo\Jogo_Galo\obj\Debug\Jogo_Galo.pdb
