@@ -12,4 +12,5 @@ There are two schools that I attended:
 
 * [42Lisboa](https://www.42lisboa.com/) (2021-Ongoing):
   * Attended the selection process called "Piscine" and was accepted to start in February 2021.
+  * **Piscine Level:** 8.49
   * [Repository with all 42Lisboa projects](https://github.com/Magueija/42Lisboa)
