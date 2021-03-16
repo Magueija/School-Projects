@@ -6,8 +6,8 @@ There are two schools that I attended:
 * [Escola Profissional de Tecnologia Digital](https://escoladigital.com/) (2017-2020):
   * Course: Programming and Managing IT Systems
   * Final Projects:
-   * 1 year: C_Console_Project (C)
-   * 2 year: WindowsForms_Project (C#)
+    * 1 year: C_Console_Project (C)
+    * 2 year: WindowsForms_Project (C#)
   * **Final Grade:** 18.5/20
 
 * [42Lisboa](https://www.42lisboa.com/) (2021-Ongoing):
