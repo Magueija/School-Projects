@@ -1,0 +1,5 @@
+Credentials cache: API:68F92BE2-FEB6-498A-B440-1C4427F40682
+        Principal: tosilva@42LISBOA.COM
+
+  Issued                Expires               Principal
+Oct 21 20:53:22 2020  Oct 22 06:53:16 2020  krbtgt/42LISBOA.COM@42LISBOA.COM

@@ -1,0 +1,5 @@
+Exam00: 48/100 (4 hours)
+Exam01: 64/100 (4 hours)
+Exam02: 84/100 (4 hours)
+
+Final Exam: 84/100 (8 hours)
